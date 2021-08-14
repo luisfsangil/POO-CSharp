@@ -9,22 +9,26 @@ namespace ManipulatingPoints
     class Point{
         //Encapsulated atributtes of the class
         private float x, y;
+        private static uint NumberOfPoints = 0;
         //Public constructors
 
         //The default constructor initialize the point in the origin (0,0)
         public Point(){
             x=y=0;
+            NumberOfPoints++;
         }
         //This constructor have the coordenade y like a optional parameter
         //If you dont set a y value, the value is cero
         public Point(float x,float y=0){
             this.x=x;
             this.y=y;
+            NumberOfPoints++;
         }
         //Public Methods
         //Guetters
         public float getX() => x;
         public float getY() => y;
+        public static uint getNumberOfPoints() => NumberOfPoints;
         //Setters
         public void setX(float _x){
             this.x = _x;
