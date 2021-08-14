@@ -3,9 +3,28 @@
 //The code start's here
 
 using ManipulatingPoints;
-
-Point origin = new Point(); //The origin of coordenades
-Point onePoint = new Point(50); //onePoint is in the (50,0) coordenades
-Point otherPoint = new Point(20,180);   //otherPoint is in the (20,180) coordenades
-
+try
+{
+    Point origin = new Point(); //The origin of coordenades
+}
+catch (OverflowException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+try
+{
+    Point otherPoint = new Point(20, 180);
+}
+catch (OverflowException ex)
+{
+    Console.WriteLine(ex.Message);
+}
+try
+{
+    Point onePoint = new Point(50);
+}
+catch (OverflowException ex)
+{
+    Console.WriteLine(ex.Message);
+}
 Console.WriteLine(Point.getNumberOfPoints());

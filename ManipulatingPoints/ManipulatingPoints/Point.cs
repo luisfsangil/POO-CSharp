@@ -15,14 +15,16 @@ namespace ManipulatingPoints
         //The default constructor initialize the point in the origin (0,0)
         public Point(){
             x=y=0;
-            NumberOfPoints++;
+            if (NumberOfPoints < uint.MaxValue) NumberOfPoints++;
+            else throw new OverflowException();
         }
         //This constructor have the coordenade y like a optional parameter
         //If you dont set a y value, the value is cero
         public Point(float x,float y=0){
             this.x=x;
             this.y=y;
-            NumberOfPoints++;
+            if (NumberOfPoints < uint.MaxValue) NumberOfPoints++;
+            else throw new OverflowException();
         }
         //Public Methods
         //Guetters
