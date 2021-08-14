@@ -10,17 +10,11 @@ namespace ManipulatingPoints
         //Encapsulated atributtes of the class
         private float x, y;
         private static uint NumberOfPoints = 0;
-        //Public constructors
+        //Public constructor
 
-        //The default constructor initialize the point in the origin (0,0)
-        public Point(){
-            x=y=0;
-            if (NumberOfPoints < uint.MaxValue) NumberOfPoints++;
-            else throw new OverflowException();
-        }
-        //This constructor have the coordenade y like a optional parameter
-        //If you dont set a y value, the value is cero
-        public Point(float x,float y=0){
+        //This constructor have the coordenades like a optional parameter
+        //If you dont set a x or y value, the value is cero
+        public Point(float x=0,float y=0){
             this.x=x;
             this.y=y;
             if (NumberOfPoints < uint.MaxValue) NumberOfPoints++;
