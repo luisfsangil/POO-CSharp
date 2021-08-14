@@ -62,5 +62,13 @@ namespace ManipulatingPoints
             this.x -= _incx;
             this.y -= _incy;
         }
+        //Method to calculate a distance to other point
+        public double distanceTo(Point _p)
+        {
+            float distX = this.x - _p.x;
+            float distY = this.y - _p.y;
+            double dist = Math.Sqrt(Math.Pow(distX, 2) + Math.Pow(distY, 2));
+            return dist;
+        }
     }
 }

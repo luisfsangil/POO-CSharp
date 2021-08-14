@@ -8,5 +8,5 @@ Point origin = new Point(); //The origin of coordenades
 Point onePoint = new Point(50); //onePoint is in the (50,0) coordenades
 Point otherPoint = new Point(20,180);   //otherPoint is in the (20,180) coordenades
 
-onePoint.incrementY(20);
-Console.WriteLine(onePoint.getY());
+double number = onePoint.distanceTo(otherPoint);
+Console.WriteLine(number);
