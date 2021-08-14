@@ -7,15 +7,15 @@ try
 {
     Point origin = new Point(); //The origin of coordenades
 }
-catch (OverflowException ex)
+catch (Exception ex)
 {
     Console.WriteLine(ex.Message);
 }
 try
 {
-    Point otherPoint = new Point(20, 180);
+    Point otherPoint = new Point(20, "manu");
 }
-catch (OverflowException ex)
+catch (Exception ex)
 {
     Console.WriteLine(ex.Message);
 }
@@ -23,7 +23,7 @@ try
 {
     Point onePoint = new Point(50);
 }
-catch (OverflowException ex)
+catch (Exception ex)
 {
     Console.WriteLine(ex.Message);
 }
