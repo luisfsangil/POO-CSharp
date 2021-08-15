@@ -1,16 +1,49 @@
 ﻿//// See https://aka.ms/new-console-template for more information
 
-//int[] ages;
-//ages = new int[4];
-//ages[0] = 10;
-//ages[1] = 15;
-//ages[2] = 23;
-//ages[3] = 91;
 
-//string[] names = { "Luis", "Maria", "Juan", "Bea" };
+bool[] logicArray = new bool[3];
+for (int i = 0; i < logicArray.Length; i++) Console.WriteLine(logicArray[i]);
+//by default, the tipe bool iniciate as false
 
-////Implicits Arrays
-//var myImplicitArray = new[] { 17.5, 88.2, 36.56 };
+short[] numbers = new short[3];
+foreach (char i in numbers) Console.WriteLine(numbers[i]);
+//by default, the type short iniciate as 0
+
+char[] characteres = new char[3];
+foreach (char i in characteres) Console.WriteLine(characteres[i]);
+//by default, the type char iniciate as ' ' (space character)
+
+decimal[] decimals = new decimal[3];
+foreach (int i in decimals) Console.WriteLine(decimals[i]);
+//by default, the type char iniciate as 0
+
+//  Its a good practique alway iniciate the values of everithing. This code is better
+//  ¿Why? because nothing, just in case this code is better
+int[] integers = new int[3];
+foreach (byte i in integers) integers[i] = 0;
+foreach (byte i in integers) Console.WriteLine(integers[i]);
+
+//You can declarated and iniciated an Array with this:
+string[] names = { "Luis", "Maria", "Juan", "Bea" };
+
+//Anonymous classes Arrays
+var AnonymoysClassesArray = new[]
+{
+    new {Name="Luis",Age=27,Weight=1.85},
+    new {Name="Marta",Age=40,Weight=1.62},
+    new {Name="Ángel",Age =30,Weight=1.55}
+};
+
+//Implicits Arrays
+var myImplicitArray = new[] { 17.5, 88.2, 36.56 };
+
+
+
+
+
+//
+
+
 
 ////Objects Arrays
 //Person[] people = new Person[5];
@@ -20,17 +53,7 @@
 //people[3] = new Person("Beatriz", 22);
 //people[4] = new Person("Angeles", 55);
 
-////Anonymous classes Arrays
-//var AnonymoysClassesArray = new[]
-//{
-//    new {Name="Luis",Age=27,Weight=1.85},
-//    new {Name="Marta",Age=40,Weight=1.62},
-//    new {Name="Ángel",Age =30,Weight=1.55}
-//};
 
-////Theese two lines are exactly the same
-//for (int i = 0; i < ages.Length; i++) Console.WriteLine(ages[i]);
-//foreach(int v in ages)  Console.WriteLine(v);
 ////---------------------------------------------------------------------------------------
 ////A Commonly example: check that a string is a real number
 //bool endLoop = false;
@@ -62,59 +85,7 @@
 //    return true;
 //}
 ////---------------------------------------------------------------------------------------
-//class Person
-//{
-//    private string name;
-//    private sbyte age;
-//    public Person(string _name, sbyte _age)
-//    {
-//        name = _name;
-//        age = _age;
-//    }
-//}
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// Arrays.
-
-/*
-    First, the definition and use of an Array.
-
-    An array is a object, like all in C#. This class 'Array' belongs to the System namespace    ->  System.Array
-    If you make some searches on the internet (preferably on the  API of .NET) you can see that:
-            Is a public and a abstract class.
-            Is the daughter of the class Object.
-            Implements the interfaces :
-                ICollection
-                IEnumerable
-                IList
-                IStructuralComparable
-                IStructuraIEquatable
-                ICloneable
-    
-    You can read all about the class Array on the .NET API, but here i write the most common examples and codes,
-    i hope you enjoy ;)
- */
 
