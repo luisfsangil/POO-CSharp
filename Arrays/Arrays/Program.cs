@@ -1,7 +1,4 @@
-﻿//// See https://aka.ms/new-console-template for more information
-
-
-bool[] logicArray = new bool[3];
+﻿bool[] logicArray = new bool[3];
 for (int i = 0; i < logicArray.Length; i++) Console.WriteLine(logicArray[i]);
 //by default, the tipe bool iniciate as false
 
