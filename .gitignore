@@ -1,5 +1,5 @@
-#This repository was written by using the Visual Studio IDE. The files included in this gitignored are the files and directories that this program, Visual Studio,
-#generate in all of his proyects
+#This repository was written by using the Visual Studio IDE. The files included in this .gitignore file
+#are the files and directories that this program, Visual Studio, generate in all of his proyects
 
 
 #Ignore the Visual Studio Solution generated
