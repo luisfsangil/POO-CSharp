@@ -1,0 +1,16 @@
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\EasyExample\EasyExample\bin\Debug\net6.0\EasyExample.exe
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\EasyExample\EasyExample\bin\Debug\net6.0\EasyExample.deps.json
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\EasyExample\EasyExample\bin\Debug\net6.0\EasyExample.runtimeconfig.json
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\EasyExample\EasyExample\bin\Debug\net6.0\EasyExample.dll
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\EasyExample\EasyExample\bin\Debug\net6.0\ref\EasyExample.dll
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\EasyExample\EasyExample\bin\Debug\net6.0\EasyExample.pdb
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\EasyExample\EasyExample\obj\Debug\net6.0\EasyExample.csproj.AssemblyReference.cache
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\EasyExample\EasyExample\obj\Debug\net6.0\EasyExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\EasyExample\EasyExample\obj\Debug\net6.0\EasyExample.AssemblyInfoInputs.cache
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\EasyExample\EasyExample\obj\Debug\net6.0\EasyExample.AssemblyInfo.cs
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\EasyExample\EasyExample\obj\Debug\net6.0\EasyExample.ImplicitNamespaceImports.cs
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\EasyExample\EasyExample\obj\Debug\net6.0\EasyExample.csproj.CoreCompileInputs.cache
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\EasyExample\EasyExample\obj\Debug\net6.0\EasyExample.dll
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\EasyExample\EasyExample\obj\Debug\net6.0\ref\EasyExample.dll
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\EasyExample\EasyExample\obj\Debug\net6.0\EasyExample.pdb
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\EasyExample\EasyExample\obj\Debug\net6.0\EasyExample.genruntimeconfig.cache
