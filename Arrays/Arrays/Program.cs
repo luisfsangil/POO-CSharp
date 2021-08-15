@@ -37,54 +37,8 @@ var AnonymoysClassesArray = new[]
 //Implicits Arrays
 var myImplicitArray = new[] { 17.5, 88.2, 36.56 };
 
-
-
-
-
-//
-
-
-
-////Objects Arrays
-//Person[] people = new Person[5];
-//people[0] = new Person("Luis", 27);
-//people[1] = new Person("Alejandro", 25);
-//people[2] = new Person("Maria", 18);
-//people[3] = new Person("Beatriz", 22);
-//people[4] = new Person("Angeles", 55);
-
-
-////---------------------------------------------------------------------------------------
-////A Commonly example: check that a string is a real number
-//bool endLoop = false;
-//string resp;
-//do
-//{
-//    Console.WriteLine("Say a real number please");
-//    resp = Console.ReadLine();
-//    if (IsNumber(resp)) endLoop = true;
-//} while (!endLoop);
-//float number = float.Parse(resp);
-//number++;
-//Console.WriteLine(number);
-
-//bool IsNumber(string p)
-//{
-//    char[] characters = p.ToCharArray();
-//    sbyte numberOfPoints = 0;
-//    for (int i=0; i<characters.Length; i++)
-//    {
-//        if (characters[i].Equals(".")) characters[i] = ',';
-//    }
-//    for (int i = 0; i < characters.Length; i++)
-//    {
-//        if (char.IsPunctuation(characters[i])) numberOfPoints++;
-//        else if (!char.IsDigit(characters[i])) return false;         
-//        if (numberOfPoints > 1) return false;
-//    } 
-//    return true;
-//}
-////---------------------------------------------------------------------------------------
+//It's possible in C# to created a Array whith many dimensions
+int[][][][][][][][][][] Array10D = new int[1][][][][][][][][][];
 
 
 
