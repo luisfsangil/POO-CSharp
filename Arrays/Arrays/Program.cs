@@ -36,7 +36,3 @@ var myImplicitArray = new[] { 17.5, 88.2, 36.56 };
 
 //It's possible in C# to created a Array whith many dimensions
 int[][][][][][][][][][] Array10D = new int[1][][][][][][][][][];
-
-
-
-
