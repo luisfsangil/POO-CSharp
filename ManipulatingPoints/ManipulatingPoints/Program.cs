@@ -13,3 +13,4 @@ catch (Exception ex){ Console.WriteLine(ex.Message);}
 try{Point onePoint = new Point(50);}
 catch (Exception ex){Console.WriteLine(ex.Message);}
 
+Console.WriteLine("End of the code");
