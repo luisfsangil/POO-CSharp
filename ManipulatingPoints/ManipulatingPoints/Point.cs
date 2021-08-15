@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+//To import static methods
+using static System.Math;
+
 namespace ManipulatingPoints
 {
     class Point{
@@ -67,7 +70,7 @@ namespace ManipulatingPoints
         {
             float distX = this.x - _p.x;
             float distY = this.y - _p.y;
-            double dist = Math.Sqrt(Math.Pow(distX, 2) + Math.Pow(distY, 2));
+            double dist = Sqrt(Pow(distX, 2) + Pow(distY, 2));
             return dist;
         }
     }

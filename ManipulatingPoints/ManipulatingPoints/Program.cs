@@ -4,13 +4,15 @@
 
 using ManipulatingPoints;
 
+//To import static methods
+using static System.Console;
+
 try { Point origin = new Point(); } //The origin of coordenades
-catch (Exception ex) { Console.WriteLine(ex.Message); }
+catch (Exception ex) { WriteLine(ex.Message); }
 
 try{Point otherPoint = new Point(20, 180);}
-catch (Exception ex){ Console.WriteLine(ex.Message);}
+catch (Exception ex){ WriteLine(ex.Message);}
 
 try{Point onePoint = new Point(50);}
-catch (Exception ex){Console.WriteLine(ex.Message);}
+catch (Exception ex){WriteLine(ex.Message);}
 
-Console.WriteLine("End of the code");
