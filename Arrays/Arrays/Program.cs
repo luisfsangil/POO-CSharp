@@ -31,7 +31,39 @@ var AnonymoysClassesArray = new[]
 //Theese two lines are exactly the same
 for (int i = 0; i < ages.Length; i++) Console.WriteLine(ages[i]);
 foreach(int v in ages)  Console.WriteLine(v);
-class Person{
+//---------------------------------------------------------------------------------------
+//A Commonly example: check that a string is a real number
+bool endLoop = false;
+string resp;
+do
+{
+    Console.WriteLine("Say a real number please");
+    resp = Console.ReadLine();
+    if (IsNumber(resp)) endLoop = true;
+} while (!endLoop);
+float number = float.Parse(resp);
+number++;
+Console.WriteLine(number);
+
+bool IsNumber(string p)
+{
+    char[] characters = p.ToCharArray();
+    sbyte numberOfPoints = 0;
+    for (int i=0; i<characters.Length; i++)
+    {
+        if (characters[i].Equals(".")) characters[i] = ',';
+    }
+    for (int i = 0; i < characters.Length; i++)
+    {
+        if (char.IsPunctuation(characters[i])) numberOfPoints++;
+        else if (!char.IsDigit(characters[i])) return false;         
+        if (numberOfPoints > 1) return false;
+    } 
+    return true;
+}
+//---------------------------------------------------------------------------------------
+class Person
+{
     private string name;
     private sbyte age;
     public Person(string _name, sbyte _age)
