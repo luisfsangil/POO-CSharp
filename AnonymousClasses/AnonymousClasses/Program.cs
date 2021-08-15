@@ -1,6 +1,3 @@
-﻿// See https://aka.ms/new-console-template for more information
-
-
 //Here is an example of Anonymous classes.
 
 
