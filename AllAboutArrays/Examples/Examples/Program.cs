@@ -11,7 +11,3 @@ double KgToLbs(string _kg)
     double lbs = 2.20462 * kg;
     return lbs;
 }
-while (true)
-{
-    Console.WriteLine(KgToLbs(Console.ReadLine()));
-}
