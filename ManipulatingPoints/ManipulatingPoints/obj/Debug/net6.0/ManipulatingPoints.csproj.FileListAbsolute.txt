@@ -1,0 +1,16 @@
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\ManipulatingPoints\ManipulatingPoints\obj\Debug\net6.0\ManipulatingPoints.csproj.AssemblyReference.cache
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\ManipulatingPoints\ManipulatingPoints\obj\Debug\net6.0\ManipulatingPoints.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\ManipulatingPoints\ManipulatingPoints\obj\Debug\net6.0\ManipulatingPoints.AssemblyInfoInputs.cache
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\ManipulatingPoints\ManipulatingPoints\obj\Debug\net6.0\ManipulatingPoints.AssemblyInfo.cs
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\ManipulatingPoints\ManipulatingPoints\obj\Debug\net6.0\ManipulatingPoints.ImplicitNamespaceImports.cs
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\ManipulatingPoints\ManipulatingPoints\obj\Debug\net6.0\ManipulatingPoints.csproj.CoreCompileInputs.cache
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\ManipulatingPoints\ManipulatingPoints\bin\Debug\net6.0\ManipulatingPoints.exe
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\ManipulatingPoints\ManipulatingPoints\bin\Debug\net6.0\ManipulatingPoints.deps.json
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\ManipulatingPoints\ManipulatingPoints\bin\Debug\net6.0\ManipulatingPoints.runtimeconfig.json
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\ManipulatingPoints\ManipulatingPoints\bin\Debug\net6.0\ManipulatingPoints.dll
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\ManipulatingPoints\ManipulatingPoints\bin\Debug\net6.0\ref\ManipulatingPoints.dll
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\ManipulatingPoints\ManipulatingPoints\bin\Debug\net6.0\ManipulatingPoints.pdb
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\ManipulatingPoints\ManipulatingPoints\obj\Debug\net6.0\ManipulatingPoints.dll
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\ManipulatingPoints\ManipulatingPoints\obj\Debug\net6.0\ref\ManipulatingPoints.dll
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\ManipulatingPoints\ManipulatingPoints\obj\Debug\net6.0\ManipulatingPoints.pdb
+C:\Users\Luis Fernandez\MisCosas\PPP\POO-CSharp\ManipulatingPoints\ManipulatingPoints\obj\Debug\net6.0\ManipulatingPoints.genruntimeconfig.cache
