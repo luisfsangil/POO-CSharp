@@ -45,7 +45,7 @@ namespace Examples
             return true;                                            //In the other cases, the method returns true
         }
         //The method 'repairDouble' permits to represents a real number with the two decimal characters '.' and ',' 
-        public static double repairDouble(string _p)
+        public static double convertToDouble(string _p)
         {
             string resul = "";
             char[] chars = _p.ToCharArray();
@@ -58,6 +58,7 @@ namespace Examples
             }
             else
             {
+                Console.WriteLine($"The string {_p} can't be convert to double, the program crashed" );
                 throw new Exception();
             }
             resul = new string(chars);
