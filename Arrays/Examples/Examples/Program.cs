@@ -10,4 +10,4 @@ double KgToLbs(string _kg)
     double kg = CheckStrings.convertToDouble(_kg);
     double lbs = 2.20462 * kg;
     return lbs;
-} 
+}

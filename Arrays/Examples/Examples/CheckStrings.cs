@@ -64,5 +64,19 @@ namespace Examples
             resul = new string(chars);
             return double.Parse(resul);
         }
+
+        //This method can be used to asegure that the user introduces
+        //a integer in the console
+        public static int ToInt(string p)
+        {
+            bool endLoop = false;
+            while (!endLoop)
+            {
+                Console.Clear();
+                if (CheckStrings.IsInteger(p)) endLoop = true;
+                else Console.WriteLine("Please, say a integer number");
+            }
+            return int.Parse(p);
+        }
     }
 }
